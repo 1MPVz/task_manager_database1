@@ -1,0 +1,52 @@
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px; /* Add padding for spacing */
+}
+
+/* Logo */
+.logo-image img {  
+    width: 80px;
+    height: 50px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 100%; /* Ensure nav takes full width */
+}
+
+/* Push the button to the right */
+.registerButton {
+    margin-left: auto; /* Moves the button to the right */
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+/* Button styles */
+.btn {
+    background: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    display: flex; /* Ensures text is centered */
+    justify-content: center; /* Centers text */
+    align-items: center; /* Centers text vertically */
+}
+
+.btn:hover {
+    background: #eeeeee;
+}

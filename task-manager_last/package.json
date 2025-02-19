@@ -1,0 +1,19 @@
+{
+  "name": "task-manager_last",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run dev --prefix client",
+    "server": "nodemon server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}
